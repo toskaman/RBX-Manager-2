@@ -1,7 +1,8 @@
-﻿title: "👑 RBX Manager 2 — The #1 Roblox Account Manager & Multi-Roblox in 2026"
-description: "Run 50+ accounts simultaneously with zero lag, custom neon window overlays, background Anti-AFK without moving mouse, intelligent memory optimizer, and mobile remote dashboard."
+title: "Roblox Account Manager (RAM) — Multi-Roblox 2026"
+description: "Download the #1 free Roblox Account Manager. Run unlimited accounts without lag, 320x240 micro-windows, background Anti-AFK & memory optimizer. 100% Hyperion-safe."
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 author: toskaman
-show_downloads: false
+show_downloads: true

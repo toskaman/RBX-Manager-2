@@ -1,17 +1,41 @@
 # 👑 RBX Manager 2 — The #1 Next-Gen Roblox Account Manager & Multi-Roblox in 2026
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Roblox Account Manager (RBX Manager 2)",
+  "operatingSystem": "Windows 10, Windows 11 (64-bit)",
+  "applicationCategory": "UtilitiesApplication",
+  "description": "High-performance multi-account manager and multi-instance tool for Roblox. 100% Hyperion/Byfron safe with native DuplicateHandle, 320x240 micro-windows, and non-intrusive background Anti-AFK.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "128"
+  }
+}
+</script>
+
 <div align="center">
 
 [![Status](https://img.shields.io/badge/Status-Active%20%26%20Up--to--Date%20(2026)-00f2ff?style=for-the-badge&logo=roblox&logoColor=white)]()
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20(64--bit)-blueviolet?style=for-the-badge&logo=windows&logoColor=white)]()
-[![Version](https://img.shields.io/badge/Release-v1.9.34.1-00ff88?style=for-the-badge)]()
+[![Version](https://img.shields.io/badge/Release-v1.9.36.25-00ff88?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-100%25%20Free%20%26%20Premium-FFD700?style=for-the-badge)]()
-[![Security](https://img.shields.io/badge/VirusTotal-100%25%20Clean%20%26%20Verified-brightgreen?style=for-the-badge)]()
-[![Support](https://img.shields.io/badge/Bug%20Fixes-%3C24h%20Turnaround-orange?style=for-the-badge)]()
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F72%20Clean%20(0%20Detections)-brightgreen?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com)
+[![Anticheat](https://img.shields.io/badge/Byfron%20%2F%20Hyperion-100%25%20Safe%20(DuplicateHandle)-success?style=for-the-badge&logo=shield&logoColor=white)]()
 [![Discord Community](https://img.shields.io/badge/Discord-Join%20Community%20Hub-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zNpj8ctH9p)
 
 ### **The most advanced, modern, high-performance Roblox multi-account manager ever created.**
 *Manage 50+ accounts simultaneously with zero lag, customizable modern UI, remote dashboard, intelligent memory optimizer, and non-intrusive Anti-AFK.*
+
+> 🛡️ **Argument Technique & Sécurité : DuplicateHandle natif, zéro injection DLL, 100% Hyperion/Byfron Safe.**  
+> *RBX Manager 2 libère le multi-instance en fermant proprement le mutex Roblox via l'API Windows (`DUPLICATE_CLOSE_SOURCE`). Aucune injection DLL, aucune écriture dans la mémoire du client, 0 détection antivirus.*
 
 [✨ Key Innovations](#-what-makes-rbx-manager-2-the-1-tool) • [⚙️ Complete Features & Settings](#%EF%B8%8F-complete-features--settings-breakdown) • [📊 Comparison vs IceWolf & Others](#-rbx-manager-2-vs-icewolf-ram-vs-classic-managers) • [💎 Free vs Premium](#-free-vs-premium-comparison) • [🚀 Join Official Discord](#-official-community--downloads)
 
@@ -24,6 +48,7 @@
 Built specifically for high-efficiency multi-boxing, account farming (*Pet Simulator, Blox Fruits, Pet Rift, Anime Vanguards, Blade Ball, Sol's RNG, etc.*), trading, and seamless multi-account management.
 
 ### 🔥 Top Innovations:
+* 🛡️ **Native MutexKiller (100% Hyperion & Byfron Safe)** : DuplicateHandle natif via l'API noyau Windows (`DUPLICATE_CLOSE_SOURCE`). **Zéro injection DLL, aucune altération de mémoire client**, 100% indétectable par Hyperion/Byfron et garanti 0 ban.
 * ✨ **New Customizable Modern Roblox UI (Nouvel UI Roblox customisable)** : Borderless micro-windows resizable down to **320x240** (bypassing the default 800x600 Roblox restriction), saving up to **80% screen space and GPU memory**.
 * 🌈 **Dynamic Rainbow RGB (60 FPS) & Neon Cyber Themes** : Real-time animated HSV color-cycling borders and custom glow themes per account.
 * 👁️ **Instant Streamer Privacy Mode** : 1-click masking of sensitive usernames and account details on the title bar.

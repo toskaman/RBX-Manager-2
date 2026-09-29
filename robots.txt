@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://toskaman.github.io/RBX-Manager-2/sitemap.xml
