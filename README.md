@@ -15,8 +15,8 @@
 ### **The most advanced, modern, high-performance Roblox multi-account manager ever created.**
 *Manage 50+ accounts simultaneously with zero lag, customizable modern UI, remote dashboard, intelligent memory optimizer, and non-intrusive Anti-AFK.*
 
-> 🛡️ **Argument Technique & Sécurité : DuplicateHandle natif, zéro injection DLL, 100% Hyperion/Byfron Safe.**  
-> *RBX Manager 2 libère le multi-instance en fermant proprement le mutex Roblox via l'API Windows (`DUPLICATE_CLOSE_SOURCE`). Aucune injection DLL, aucune écriture dans la mémoire du client, 0 détection antivirus.*
+> 🛡️ **Technical & Security Core: Native DuplicateHandle, Zero DLL Injection, 100% Hyperion/Byfron Safe.**  
+> *RBX Manager 2 enables multi-instancing by cleanly closing the Roblox mutex via the Windows API (`DUPLICATE_CLOSE_SOURCE`). No DLL injection, no client memory modification, 0 antivirus detections.*
 
 [✨ Key Innovations](#-what-makes-rbx-manager-2-the-1-tool) • [⚙️ Complete Features & Settings](#%EF%B8%8F-complete-features--settings-breakdown) • [📊 Comparison vs IceWolf & Others](#-rbx-manager-2-vs-icewolf-ram-vs-classic-managers) • [💎 Free vs Premium](#-free-vs-premium-comparison) • [🚀 Join Official Discord](#-official-community--downloads)
 
