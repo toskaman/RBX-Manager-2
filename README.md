@@ -1,25 +1,6 @@
 # 👑 RBX Manager 2 — The #1 Next-Gen Roblox Account Manager & Multi-Roblox in 2026
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Roblox Account Manager (RBX Manager 2)",
-  "operatingSystem": "Windows 10, Windows 11 (64-bit)",
-  "applicationCategory": "UtilitiesApplication",
-  "description": "High-performance multi-account manager and multi-instance tool for Roblox. 100% Hyperion/Byfron safe with native DuplicateHandle, 320x240 micro-windows, and non-intrusive background Anti-AFK.",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "ratingCount": "128"
-  }
-}
-</script>
+
 
 <div align="center">
 
