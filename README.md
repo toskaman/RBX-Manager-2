@@ -1,8 +1,22 @@
 # 👑 RBX Manager 2 — The #1 Next-Gen Roblox Account Manager & Multi-Roblox in 2026
 
-
-
 <div align="center">
+
+<a href="https://github.com/toskaman/RBX-Manager-2/releases/download/v1.9.34.1/brag.mp4">
+  <img src="https://github.com/toskaman/RBX-Manager-2/releases/download/v1.9.34.1/brag.jpg" alt="RBX Manager 2 — Cinematic Showcase" width="100%" />
+</a>
+
+<p>
+  <a href="https://github.com/toskaman/RBX-Manager-2/releases/download/v1.9.34.1/brag.mp4">
+    <img src="https://img.shields.io/badge/%E2%96%B6%20Watch%20Cinematic%20Showcase-1080p%20%E2%80%A2%201m48s-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Cinematic Showcase" />
+  </a>
+  <a href="https://github.com/toskaman/RBX-Manager-2/blob/main/brag.mp4">
+    <img src="https://img.shields.io/badge/%F0%9F%8E%AC%20GitHub%20Player-Direct%20Stream-5865F2?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Video Stream" />
+  </a>
+  <a href="https://github.com/toskaman/RBX-Manager-2/releases/download/v1.9.34.1/brag.mp4">
+    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Download%20MP4-61.2%20MB-00ff88?style=for-the-badge" alt="Download Video" />
+  </a>
+</p>
 
 [![Status](https://img.shields.io/badge/Status-Active%20%26%20Up--to--Date%20(2026)-00f2ff?style=for-the-badge&logo=roblox&logoColor=white)]()
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20(64--bit)-blueviolet?style=for-the-badge&logo=windows&logoColor=white)]()
