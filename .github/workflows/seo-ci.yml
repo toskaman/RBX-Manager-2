@@ -1,0 +1,57 @@
+name: SEO & Search Engine Indexing CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  validate-seo-and-links:
+    name: SEO, JSON-LD & Link Integrity
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run SEO & JSON-LD Test Suite
+        run: python scripts/validate_seo.py
+
+      - name: Run HTML Link Validity & Formatting Checks
+        run: python scripts/validate_html.py
+
+  submit-indexnow:
+    name: IndexNow Instant Search Submission
+    needs: validate-seo-and-links
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Dispatch IndexNow API Request
+        env:
+          INDEXNOW_KEY: "e7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2"
+          INDEXNOW_HOST: "toskaman.github.io"
+          INDEXNOW_KEY_LOCATION: "https://toskaman.github.io/RBX-Manager-2/e7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2.txt"
+        run: python scripts/submit_indexnow.py

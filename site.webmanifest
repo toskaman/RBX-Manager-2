@@ -1,0 +1,18 @@
+{
+  "name": "RBX Manager 2",
+  "short_name": "RBX Manager 2",
+  "description": "High-performance Roblox Multi-Account Manager for Windows. Run multiple instances simultaneously with 320x240 micro-windows and non-intrusive background Anti-AFK.",
+  "start_url": "/RBX-Manager-2/",
+  "scope": "/RBX-Manager-2/",
+  "display": "standalone",
+  "background_color": "#08090d",
+  "theme_color": "#08090d",
+  "icons": [
+    {
+      "src": "/RBX-Manager-2/assets/images/favicon.svg",
+      "sizes": "64x64 any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

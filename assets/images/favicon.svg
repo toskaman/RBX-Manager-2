@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="RBX Manager 2 Icon">
+  <defs>
+    <linearGradient id="neonBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2ff"/>
+      <stop offset="100%" stop-color="#0077ff"/>
+    </linearGradient>
+    <linearGradient id="cyanAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5cf6ff"/>
+      <stop offset="100%" stop-color="#00f2ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Cyber Rounded Square Background -->
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="#08090d"/>
+
+  <!-- High-Contrast Neon Border -->
+  <rect x="2.5" y="2.5" width="59" height="59" rx="11.5" fill="none" stroke="url(#neonBorder)" stroke-width="3"/>
+
+  <!-- Top Cyber Crown / Status Notch -->
+  <path d="M21 2.5 H43 L39.5 6.5 H24.5 Z" fill="#00f2ff"/>
+
+  <!-- Crisp Geometric "R" Monogram (Pure Vector Path for 16x16 - 64x64 clarity) -->
+  <path d="M11 16 H25.5 C30.8 16 34 19 34 24 C34 27.6 32 30.2 28.6 31.3 L34.5 48 H27.2 L22.1 32.2 H18 V48 H11 V16 Z M18 21.8 V26.8 H24.6 C26.4 26.8 27.4 25.8 27.4 24.3 C27.4 22.8 26.4 21.8 24.6 21.8 H18 Z" fill="#f1f5f9"/>
+
+  <!-- Crisp Geometric "2" Monogram in Cyber Neon Cyan -->
+  <path d="M36.5 24.5 C36.5 19.2 40.3 16 45.5 16 C50.6 16 54 19 54 23.8 C54 27.4 52.1 30.2 47.8 34.4 L43.8 38.3 V41.8 H54 V48 H36.5 V41 L44.2 33.1 C46.8 30.5 47.6 28.6 47.6 24.6 C47.6 22.8 46.5 21.6 45 21.6 C43.3 21.6 42.3 22.8 42.3 24.8 H36.5 Z" fill="url(#cyanAccent)"/>
+</svg>

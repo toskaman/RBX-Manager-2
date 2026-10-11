@@ -1,0 +1,21 @@
+url: "https://toskaman.github.io"
+baseurl: "/RBX-Manager-2"
+title: "RBX Manager 2 — Modern Roblox Multi-Account Manager (RAM) 2026"
+description: "High-performance Roblox Multi-Account Manager for Windows. Run multiple instances simultaneously, 320x240 micro-windows, non-intrusive background Anti-AFK & memory optimization. Engineered for Byfron safety."
+author:
+  name: "toskaman"
+  github: "toskaman"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO & Social Defaults
+repository: "toskaman/RBX-Manager-2"
+discord_url: "https://discord.gg/zNpj8ctH9p"
+release_version: "v1.9.36.25"
+operating_system: "Windows 10, Windows 11 (64-bit)"
+encoding: "utf-8"
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false

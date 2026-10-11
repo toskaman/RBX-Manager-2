@@ -1,0 +1,199 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="author" content="toskaman">
+<meta name="robots" content="{% if page.noindex %}noindex, follow{% else %}index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1{% endif %}">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}{% endif %}">
+
+<!-- Favicon & Web App Manifest -->
+<link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/assets/images/favicon.svg">
+<link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
+
+<!-- Multilingual SEO & Bidirectional Hreflang -->
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.baseurl }}/">
+<link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}/">
+<link rel="alternate" hreflang="es" href="{{ site.url }}{{ site.baseurl }}/es/">
+<link rel="alternate" hreflang="pt-BR" href="{{ site.url }}{{ site.baseurl }}/pt-br/">
+<link rel="alternate" hreflang="fr" href="{{ site.url }}{{ site.baseurl }}/fr/">
+<link rel="alternate" hreflang="de" href="{{ site.url }}{{ site.baseurl }}/de/">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RBX Manager 2">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
+<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/brag.jpg">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1080">
+<meta property="og:image:alt" content="RBX Manager 2 Interface &amp; Feature Showcase">
+<meta property="og:locale" content="{% if page.lang == 'fr' %}fr_FR{% elsif page.lang == 'es' %}es_ES{% elsif page.lang == 'pt-BR' %}pt_BR{% elsif page.lang == 'de' %}de_DE{% else %}en_US{% endif %}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/brag.jpg">
+
+<!-- Performance Preload for LCP Poster -->
+<link rel="preload" as="image" href="{{ site.baseurl }}/brag.jpg" fetchpriority="high">
+
+<!-- Theme Color for Browsers -->
+<meta name="theme-color" content="#08090d">
+<meta name="color-scheme" content="dark">
+
+<!-- Structured Data: SoftwareApplication, Organization, WebSite, WebPage, BreadcrumbList & FAQPage JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}{{ site.baseurl }}/#organization",
+      "name": "RBX Manager 2 Project",
+      "url": "{{ site.url }}{{ site.baseurl }}/",
+      "logo": "{{ site.url }}{{ site.baseurl }}/assets/images/favicon.svg",
+      "sameAs": [
+        "https://github.com/toskaman/RBX-Manager-2",
+        "https://discord.gg/zNpj8ctH9p"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "{{ site.url }}{{ site.baseurl }}/#software",
+      "name": "RBX Manager 2",
+      "applicationCategory": "UtilitiesApplication",
+      "applicationSubCategory": "DesktopApplication",
+      "operatingSystem": "Windows 10, Windows 11 (64-bit)",
+      "softwareVersion": "1.9.36.25",
+      "description": "High-performance Roblox Multi-Account Manager for Windows. Run multiple instances simultaneously, 320x240 micro-windows, non-intrusive background Anti-AFK & memory optimization. Engineered for Byfron safety.",
+      "downloadUrl": "https://discord.gg/zNpj8ctH9p",
+      "fileSize": "62MB",
+      "screenshot": "{{ site.url }}{{ site.baseurl }}/brag.jpg",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "description": "Free edition includes unlimited accounts, multi-instance launch, custom 320x240 resizing, and non-intrusive Anti-AFK."
+      },
+      "author": {
+        "@type": "Person",
+        "name": "toskaman",
+        "url": "https://github.com/toskaman"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "{{ site.url }}{{ site.baseurl }}/#organization",
+        "name": "RBX Manager 2 Project",
+        "url": "{{ site.url }}{{ site.baseurl }}/"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}{{ site.baseurl }}/#website",
+      "url": "{{ site.url }}{{ site.baseurl }}/",
+      "name": "RBX Manager 2 Official Showcase",
+      "description": "Official documentation and web showcase for RBX Manager 2.",
+      "publisher": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/#organization"
+      },
+      "inLanguage": ["en", "es", "pt-BR", "fr", "de"]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}#webpage",
+      "url": "{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}",
+      "name": "{{ page.title | default: site.title }}",
+      "description": "{{ page.description | default: site.description }}",
+      "inLanguage": "{{ page.lang | default: 'en' }}",
+      "isPartOf": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/#website"
+      },
+      "about": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/#software"
+      },
+      "breadcrumb": {
+        "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "RBX Manager 2",
+          "item": "{{ site.url }}{{ site.baseurl }}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ page.title | default: site.title }}",
+          "item": "{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does RBX Manager 2 run multiple Roblox accounts simultaneously?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roblox prevents multiple instances on Windows by creating a singleton named mutex upon launch. RBX Manager 2 uses the native Windows API DuplicateHandle with DUPLICATE_CLOSE_SOURCE to safely release the mutex handle. This allows subsequent Roblox clients to launch normally without any DLL injection or client memory tampering."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is RBX Manager 2 safe from Byfron (Hyperion) anti-cheat detection?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. RBX Manager 2 operates entirely outside Roblox game memory. It does not hook functions, inject dynamic-link libraries, or modify client code. By interacting strictly via standard Windows operating system APIs to manage window handles and mutex states, it respects Byfron integrity requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the non-intrusive background Anti-AFK engine work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Traditional auto-clickers or macro recorders take over the physical mouse cursor, preventing you from using your computer. RBX Manager 2 utilizes a background event dispatch system that sends keep-alive signals directly to target Roblox window message queues without stealing mouse or keyboard focus, allowing you to work, browse, or play other games uninterrupted."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the 320x240 micro-window mode save GPU and RAM resources?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By default, Roblox enforces an 800x600 minimum window resolution. RBX Manager 2 applies custom Windows styling to resize clients down to 320x240, significantly reducing framebuffer resolution, pixel rasterization load, and GPU VRAM consumption while running multiple background accounts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is RBX Manager 2 free or paid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RBX Manager 2 is 100% free to use for core multi-accounting with unlimited accounts, multi-instance launching, micro-resizing, and background Anti-AFK. An optional Premium license is available for users who wish to unlock cosmetic cyber themes, 60 FPS rainbow RGB mode, advanced memory tuning, and priority support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I download the official version of RBX Manager 2?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Verified binaries, automatic update packages, and community support are distributed exclusively through the official Discord community (https://discord.gg/zNpj8ctH9p). No standalone executables are hosted directly in the GitHub repository to guarantee verified distribution and cryptographic integrity."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>

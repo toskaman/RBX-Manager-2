@@ -1,0 +1,33 @@
+# Robots.txt for RBX Manager 2 Official Showcase
+User-agent: *
+Allow: /
+
+# Answer Engine & Generative Search Crawlers (AEO / GEO)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Traditional Web Search Engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+# Model Training Scrapers (Disallow training without affecting search indexing)
+User-agent: GPTBot
+Disallow: /
+
+# Canonical XML Sitemap
+Sitemap: https://toskaman.github.io/RBX-Manager-2/sitemap.xml

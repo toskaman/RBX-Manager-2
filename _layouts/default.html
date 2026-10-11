@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/cyber-style.css">
+</head>
+<body id="top">
+  {% include nav.html %}
+  <main id="main-content">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ site.baseurl }}/assets/js/app.js" defer></script>
+</body>
+</html>
